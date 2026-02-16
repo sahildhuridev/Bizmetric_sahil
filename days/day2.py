@@ -1,3 +1,33 @@
+'''
+Docstring for days.day2
+1. String formatting using .format()
+2. Formatting floating numbers with precision (e.g., {:.2f}, {:.3f})
+3. String alignment formatting:
+    - Left alignment {:20}
+    - Right alignment {:>20}
+    - Center alignment {:^20}
+
+    4. Set data type usage:
+        - Creating a set
+        - add() method (adds single element)
+        - update() method (adds iterable elements like list, tuple, dict)
+        - intersection()
+        - difference()
+        - symmetric_difference()
+
+        5. Book cost calculation system:
+            - Takes student standard (class 1–10)
+            - Takes book selection input (Hindi, Marathi, English, Science, Maths)
+            - Calculates book price based on:
+                - Selected subjects
+                - Standard range (1–4, 5–8, 9–10)
+                - Uses nested if-elif conditions
+                - Uses logical operators (or)
+                - Uses try-except for error handling
+                - Displays total book amount
+'''
+
+
 # a =10
 # b = 32.34434
 # name = "world peace university"

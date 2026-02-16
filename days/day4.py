@@ -1,3 +1,61 @@
+'''
+Docstring for days.day4
+and higher-order functions:
+
+    1. itertools module usage:
+        - islice() for slicing iterables
+        - count() for infinite counting
+        - cycle() for repeating sequence
+        - repeat() for repeating element fixed times
+        - accumulate() for cumulative operations
+        - chain() for combining iterables
+        - compress() for filtering using boolean selectors
+        - dropwhile() to drop elements while condition is true
+        - filterfalse() opposite of filter()
+
+    2. zip() usage:
+        - Combining multiple iterables element-wise
+
+    3. Difference between chain() and zip()
+
+    4. eval() function:
+        - Evaluating string expressions
+        - Evaluating mathematical expressions dynamically
+
+    5. Argument unpacking:
+        - *args unpacking
+        - **kwargs unpacking
+        - Passing dictionary as keyword arguments
+
+    6. Nested functions:
+        - Function inside function
+        - Calling inner function
+        - Returning function resul
+    7. Lambda functions:
+        - Conditional lambda (ternary operator)
+        - Mathematical calculations
+        - Length checking logic
+        - Default argument in lambda (lambda i=i)
+        - Solving late binding problem in 
+        8. map() usage:
+            - Applying function to list elements
+            - Handling mixed data 
+        9. reduce() from functools:
+            - Reducing list to single value
+            - Difference between reduce() and accumulate()
+
+        10. Higher-order functions:
+            - Passing function as argument
+        	- Returning function results based on condition
+        11. Variable scope basics:
+            - Local vs global variables
+
+
+
+'''
+
+
+
 # print("sahil")
 # count = 10
 # print(count)

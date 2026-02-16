@@ -1,3 +1,27 @@
+'''
+PYTHON FUNDAMENTALS!!!
+1. User input handling using input()
+2. String methods: isalnum(), isdecimal(), isdigit(), isalpha()
+3. String manipulation: lower(), upper(), split(), slicing
+4. Name validation (only alphabets allowed)
+5. Mobile number validation (10 digits check)
+6. Salary categorization using if-elif-else
+7. Student marks classification (distinction, first class, etc.)
+8. Use of while loop with try-except for input validation
+9. List operations: append(), extend(), remove(), indexing, slicing
+10. Nested list indexing and modification
+11. Dictionary creation and nested dictionary access
+12. Tuple indexing and slicing
+13. Salary increment system using match-case and conditions
+14. College fee calculation system using functions and user input
+15. Logical operators (and, or, not)
+16. Pattern matching (match-case)
+17. Exception handling (ValueError)
+18. String formatting using f-strings and .format()
+19. Floating number formatting using {:.3f}
+'''
+
+
 name = input("enter your name: ")
 # Sahil Dhuri
 type(name)

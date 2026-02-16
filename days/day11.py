@@ -1,3 +1,97 @@
+'''
+Docstring for days.day11
+This code practices extensive NumPy concepts including array creation, reshaping, indexing, broadcasting, random generation, statistical operations, and sorting:
+
+    1. NumPy basics
+    - Creating arrays using np.array()
+    - Homogeneous data type concept
+    - Using np.arange()
+    - Checking shape and dimensions (shape, ndim)
+
+    2. Handling NaN and Inf
+    - Using np.nan and np.inf
+    - Checking with np.isnan() and np.isinf()
+    - Replacing NaN values
+    - Combining conditions using logical operators (|)
+
+    3. Random number generation
+    - np.random.randint()
+    - np.random.randn() (normal distribution)
+    - np.random.random()
+    - np.random.normal(mean, std)
+    - Using np.random.seed() for reproducibility
+
+    4. Array slicing and indexing
+    - Row and column slicing
+    - Reverse slicing using [::-1]
+    - Boolean indexing
+    - Selecting specific rows using conditions
+    - Selecting specific columns
+    - Combining conditions using & and |
+    - Using np.where() for conditional replacement
+
+    5. 3D array operations
+    - Creating 3D arrays
+    - Checking shape and dimensions
+    - Reshaping using reshape()
+    - Flattening using flatten()
+    - Using ravel() and understanding view vs copy behavior
+
+    6. Copy vs View
+    - Using .copy() to create deep copy
+    - Understanding difference between modifying flattened array and original array
+
+    7. Statistical operations
+    - min(), max(), mean()
+    - np.amin() with axis
+    - Axis concept (axis=0, axis=1)
+
+    8. Array transformations
+    - flatten()
+    - ravel()
+    - reshape()
+    - flipud()
+    - fliplr()
+    - diagonal()
+    - argmax()
+
+    9. Array creation helpers
+    - np.zeros()
+    - np.ones()
+    - np.full()
+    - np.eye()
+    - zeros_like()
+    - ones_like()
+
+    10. Array arithmetic
+    - Addition and subtraction (same shape required)
+    - Broadcasting concept
+    - Element-wise multiplication
+
+    11. Combining arrays
+    - np.concatenate()
+    - np.hstack()
+    - np.c_
+
+    12. Sorting
+    - np.sort()
+    - Sorting along different axes
+    - argsort()
+    - lexsort()
+
+    13. Conditional grading system
+    - Using nested np.where() to assign grades (A, B, C, D)
+    - Extracting elements based on condition
+
+    14. Data type understanding
+    - Numeric (continuous, discrete)
+    - Categorical (nominal, binary, ordinal)
+
+    Overall, this file is a comprehensive NumPy practice file covering array creation, indexing, reshaping, statistics, random generation, conditional filtering, broadcasting, sorting, and advanced multidimensional operations.
+
+'''
+
+
 # # # numpy and pandas
 
 # # # np.array(iterable object) - converts any iterable object into numpy array

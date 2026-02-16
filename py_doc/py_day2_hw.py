@@ -339,10 +339,5 @@ dob = dt.strptime(dob , '%YY-%mm-%d')
 
 
 
-# 2. create a function to check age eligibility for given customer based on dob, function will take two input dob and eligibility age
-
-# 3. calculate total hours based on input sign and sign out time
-
-
 
 

@@ -1,3 +1,49 @@
+'''
+This code practices the following Python concepts:
+
+    1. Nested functions and variable scope
+    - Defining a function inside another function
+    - Accessing outer (enclosing) function variables inside inner function
+    - Understanding local scope and enclosing scope
+
+    2. Lazy binding issue in lambda
+    - Lambda inside loop capturing the final value of loop variable
+    - Fixing it using default argument (lambda i=i: i)
+    - Understanding closure behavior
+
+    3. Function objects stored in list
+    - Storing lambda functions inside a list
+    - Executing functions from the list
+    - Understanding why list(funcs) does not call the functions automatically
+
+    4. String slicing
+    - Full slicing [:]
+    - Partial slicing
+    - Negative indexing
+    - Reversing string using [::-1]
+
+    5. Recursion
+    - Fibonacci series implementation
+    - Base case and recursive case logic
+
+    6. Returning multiple values from function
+    - Returning tuple (value, flag)
+    - Mobile number validation logic
+    - Separating input collection and validation functions
+
+    7. Exception handling
+    - try-except-finally structure
+    - Handling ValueError
+    - Manually raising Exception
+    - Understanding finally block execution
+
+    8. Custom exception
+    - Creating user-defined exception (AgeError)
+    - Raising custom exception using raise
+    - Validating age and throwing error if negative
+
+'''
+
 # # (DOUBT) if we have one big function and two function inside that function how can we access the variables in the function
 
 # def sahil_super(sahil : int):

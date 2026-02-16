@@ -1,3 +1,42 @@
+'''
+This code practices concepts related to datetime, file handling, time delay, and file operations using shutil:
+
+    1. datetime module usage
+    - Importing datetime, date, and time
+    - Using datetime.now()
+    - Formatting date using strftime()
+    - Creating date and datetime objects
+    - Parsing string to datetime using strptime()
+    - Working with date components (year, month, weekday, timestamp)
+
+    2. time module
+    - Using time.sleep() to pause program execution
+    - Checking time before and after sleep
+
+    3. File handling
+    - Opening files using open()
+    - Reading file using:
+        - readline()
+        - readlines()
+        - read()
+        - Writing to file using write()
+        - Writing multiple lines using writelines()
+        - Using with statement for safe file handling
+
+        4. File modes
+        - Read mode
+        - Append mode ('a')
+
+        5. shutil module (file and folder operations)
+        - shutil.copy() → Copy file to another location
+        - shutil.move() → Move file (removes from original location)
+        - shutil.copytree() → Copy entire folder with subfolders
+        - Understanding file sizes (KB, MB, GB)
+
+        Overall, this file practices working with dates and time, delaying execution, file reading/writing operations, and copying/moving files and directories using shutil.
+
+'''
+
 # from datetime import datetime , date , time 
 # # a = datetime.now()
 # # print(a)
