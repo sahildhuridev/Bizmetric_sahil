@@ -16,9 +16,9 @@ try:
     conn = pyodbc.connect(connection_string)
     cursor = conn.cursor()
 
-    print("Connected to hotel_sahil 🔥")
+    print("Connected to hotel_sahil ")
 
-    # 🔹 Step 1: Show Menu
+  
     print("\n------ MENU ------")
     cursor.execute("SELECT menu_id, item_name, price FROM Menu")
     menu_items = cursor.fetchall()
@@ -26,11 +26,11 @@ try:
     for item in menu_items:
         print(f"{item.menu_id}. {item.item_name} - ₹{item.price}")
 
-    # 🔹 Step 2: Take Order Input
+   
     selected_id = int(input("\nEnter Menu ID to order: "))
     quantity = int(input("Enter Quantity: "))
 
-    # 🔹 Step 3: Insert Order
+   
     cursor.execute(
         "INSERT INTO Orders (menu_id, quantity) VALUES (?, ?)",
         (selected_id, quantity)
@@ -39,7 +39,7 @@ try:
 
     print("Order Placed Successfully ✅")
 
-        # 🔹 Step 4: Generate Bill
+      
     print("\n------ BILL ------")
 
     cursor.execute("""
