@@ -328,4 +328,6 @@ df_merge = pd.merge(df1,df2, how = 'cross' )
 print(df_merge)
 
 # how merge differ from concat and how join differ from concat
-
+print("----------------------------suffix----------------------------")
+print(df2.join(df1, lsuffix='a'))
+print(df2.join(df1, rsuffix='a'))
