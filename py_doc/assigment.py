@@ -1,3 +1,115 @@
+
+# 1
+name = '''
+Hi How are you?
+Starterd learning python.
+It's really interesting.
+'''
+name[:]
+name[-10:-5]
+name[3:12]
+name[5:6]
+name[-4:-12]
+name[::2]
+name[::-2]
+
+l1 = ['a','b',20,30,'t',100,300,400,'happy','major']
+l1[:]
+l1[::3]
+l1[::-2]
+
+# based on index
+l1[8]
+# based on negative index
+l1[-2]
+
+# checking type of data on 4th position
+type(l1[3])
+
+l1[5:8]
+
+# question 03
+l2 = [1,2,3,5,['a','b','work hard'],100,200,'success']
+l2[4]
+l2[1:5]
+l2[7]
+l2[7][2]
+l2[7][2:]
+l2[:3]
+l2[3:]
+
+
+# question 04
+# changing b to BEE
+l2[4][1] = 'BEE'
+l2[4][1]
+
+# Question 05: discard BEE from l2
+l2.remove("BEE")
+print(l2)
+
+#  question 06:
+l2.append({'insect':['bee','moth'],'bird':['parrot','sparrow']})
+l2
+
+# question 07: (extract insect information)
+l2[8]['insect']
+
+# question 08:
+d1 = {'a' : 10 ,'b' : 20 , 'c' : 30}
+l2.append(d1)
+print(l2)
+
+# question 09:
+l2[9]['a']
+
+# question 10:
+l2 = [1,2,3,5,(90,40,50,10),"python",400, ['a','b','work','hard'],100,200,"success",(200,300,"hundreds")]
+
+l2[4][2]
+l2[5][:]
+l2[2] [:]
+l2[1:5]
+l2[5]
+l2[5][3:-1]
+l2[-1]
+l2[-4:-3]
+l2[-4: -10]
+l2[7][2]
+l2[-7][2:]
+l2[ :- 3]
+l2[-3:]
+
+# question 11
+while True:
+    try:
+        student_marks = float(input("enter your percentage / marks out of 100 "))
+        if student_marks > 100 :
+            print("number out of bonds")
+        elif student_marks >= 80 :
+            print("distinction")
+        elif student_marks >= 70 :
+            print("first class")
+        elif student_marks >= 50 :
+            print("second class")
+        elif student_marks > 35 :
+            print("pass")
+        elif student_marks <= 35 and student_marks >= 0: 
+            print("fail")
+        else:
+            print("enter proper marks")
+            break
+    except:
+        print("the marks you entered was wrong data ")
+
+
+
+# question 12 to 14 in day1.py and day2.py
+
+
+
+
+
 # 16 (DOUBT)
 string_01 = "In most organized forms of writing, such as essays, paragraphs contain a topic sentence. This topic sentence of the paragraph tells the reader what the paragraph will be about. Essays usually have multiple paragraphs that make claims to support a thesis statement, which is the central idea of the essay.     "
 
