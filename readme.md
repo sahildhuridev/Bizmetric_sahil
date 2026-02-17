@@ -15,13 +15,16 @@ mini_project_2.py - hotel management where we take order from user from the cont
 py_doc folder :
 this folder contains all the assigments given to us to solve 
 assigment.py - contain all code from the assigment file 55 questions
+
 13question.py :
 School Bookstore Billing System
 It allows users to select their standard, choose subjects and notebooks with quantity, and calculates the total bill.
 Prices are stored using nested dictionaries, simulating a simple database system.
 The program generates and prints a structured bill with complete purchase details.
+
 python_coding_questions.py :
 it contains all comphrenensive list and lambda functions codes
+
 hotelquestion.py :
 printing the hotel bill in the console
 
