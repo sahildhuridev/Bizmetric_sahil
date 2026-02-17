@@ -37,7 +37,7 @@ try:
     )
     conn.commit()
 
-    print("Order Placed Successfully ✅")
+    print("Order Placed Successfully")
 
       
     print("\n------ BILL ------")
