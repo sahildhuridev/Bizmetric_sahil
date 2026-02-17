@@ -32,8 +32,7 @@ try:
 
    
     cursor.execute(
-        "INSERT INTO Orders (menu_id, quantity) VALUES (?, ?)",
-        (selected_id, quantity)
+        f"INSERT INTO Orders (menu_id, quantity) VALUES ({selected_id}, {quantity})"
     )
     conn.commit()
 
