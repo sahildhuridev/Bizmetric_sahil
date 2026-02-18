@@ -44,86 +44,86 @@ This code practices the following Python concepts:
 
 '''
 
-# # (DOUBT) if we have one big function and two function inside that function how can we access the variables in the function
+# (DOUBT) if we have one big function and two function inside that function how can we access the variables in the function
 
-# def sahil_super(sahil : int):
-#     num_1 = sahil
-#     def super_two():
-#         num_2 = 5
-#         num_1 += num_2
-#         return num_1
+def sahil_super(sahil : int):
+    num_1 = sahil
+    def super_two():
+        num_2 = 5
+        num_1 += num_2
+        return num_1
 
-# print(sahil_super(10))    
+print(sahil_super(10))    
     
 
-# # (DOUBT) 
+# (DOUBT) 
 
-# # lazy binding issue: 
-# funcs = []
-# for i in range(3):
-#     funcs.append(lambda  : i)
-# for f in funcs:
-# 	print(f())
+# lazy binding issue: 
+funcs = []
+for i in range(3):
+    funcs.append(lambda  : i)
+for f in funcs:
+	print(f())
 
-# # why it is not printing the list when i convert using list function
-# print(list(funcs))
+# why it is not printing the list when i convert using list function
+print(list(funcs))
 
-# print('\n')
+print('\n')
 
-# funcs = []
-# for i in range(3):
-#     funcs.append(lambda i=i : i)
+funcs = []
+for i in range(3):
+    funcs.append(lambda i=i : i)
 
-# for f in funcs:
-# 	print(f())
+for f in funcs:
+	print(f())
 
-# # slicing
-# a = 'sahil sadanand dhuri'
-# print(a[:])
-# print(a[:4])
-# print(a[-5:-2])
-# print(a[15:18])
-# print(a[::-1])
-# print()
-
-
-# fibonacci series:
-# def fibonac(n):
-#     if n == 1 : return 1
-#     if n == 0 : return 0
-#     return fibonac(n-1) + fibonac(n-2)
-# print(fibonac(4))
-# '''
-
-# '''
+# slicing
+a = 'sahil sadanand dhuri'
+print(a[:])
+print(a[:4])
+print(a[-5:-2])
+print(a[15:18])
+print(a[::-1])
+print()
 
 
-# def val_mobile(mobile):
-#     if mobile.isdigit() and len(mobile)==10:
-#         val =mobile
-#         flag = True
-#     else:
-#         val = "Error"
-#         flag = False
-#     return val , flag
+#fibonacci_series:
+def fibonac(n):
+    if n == 1 : return 1
+    if n == 0 : return 0
+    return fibonac(n-1) + fibonac(n-2)
+print(fibonac(4))
+'''
 
-# def acceot_input():
-#     name = input('enter name:')
-#     mobile =input('enter mobile')
-#     return name , mobile
-
-# input_val = acceot_input()
+'''
 
 
+def val_mobile(mobile):
+    if mobile.isdigit() and len(mobile)==10:
+        val =mobile
+        flag = True
+    else:
+        val = "Error"
+        flag = False
+    return val , flag
 
-# # try and except:
-# import sys
-# try:
-#     xyz = int(input('enter number'))
-# except:
-#     print(sys.exc_info)
-# finally:
-#     print('this runs even after error occur')
+def acceot_input():
+    name = input('enter name:')
+    mobile =input('enter mobile')
+    return name , mobile
+
+input_val = acceot_input()
+
+
+
+# try and except:
+import sys
+try:
+    xyz = int(input('enter number'))
+except:
+    print(sys.exc_info)
+finally:
+    print('this runs even after error occur')
 
 
 while True:

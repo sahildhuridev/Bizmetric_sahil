@@ -1,3 +1,5 @@
+# print bill ( all from database )
+
 import pyodbc
 from datetime import datetime
 
@@ -59,8 +61,8 @@ try:
     print(f"Total      : ₹{bill.total_price}")
     print(f"Order Date : {bill.order_date}")
 
-except Exception as e:
-    print("Error:", e)
+except:
+    print("Error:")
 
 finally:
     cursor.close()

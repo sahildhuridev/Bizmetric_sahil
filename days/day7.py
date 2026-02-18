@@ -52,19 +52,19 @@ This code practices concepts related to image handling, file positioning, regex,
 
 '''
 
-# # handling image file with matplotlib
-# import matplotlib.image as mpimg
-# import matplotlib.pyplot as plt
-# import os
-# BASE_DIR = os.path.dirname(__file__)
-# print(BASE_DIR)
-# data = os.path.join(BASE_DIR, 'almight.png')
+# handling image file with matplotlib
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
+import os
+BASE_DIR = os.path.dirname(__file__)
+print(BASE_DIR)
+data = os.path.join(BASE_DIR, 'almight.png')
 
-# img = mpimg.imread(data)
-# print(type(img))
-# plt.imshow(img)
+img = mpimg.imread(data)
+print(type(img))
+plt.imshow(img)
 
-# plt.show()
+plt.show()
 
 
 # from PIL import Image

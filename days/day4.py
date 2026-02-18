@@ -140,7 +140,7 @@ c = list(list(x) for x in chain(a,b))
 print(c)
 
 # why cant i run chain here
-d = list(chain(a,b))
+d = list(chain(a,b)) 
 print(d)
 
 from itertools import chain
