@@ -39,6 +39,7 @@ print(name.upper())
 print(name.split(" "))
 
 
+
 # activity : ask user to input name ( name should be all aplhabets )
 # if not then write as wrong name
 
@@ -107,6 +108,7 @@ marks = input("enter the marks")
 if (not marks.isalnum() and not marks.isalpha()) or marks.isdigit():
     marks = int(marks)
 
+
 if student_marks > 100 :
     print("number out of bonds")
 elif student_marks >= 80 :
@@ -133,7 +135,7 @@ print(list_01)
 
 sahil_01 = ['shail','eam',23,23.23,3,14,["sahil", [12,343,121,232,'sahil']]]
 
-sahil_01[6][1][5][2]
+sahil_01[7]
 
 # if else 
 # 14th

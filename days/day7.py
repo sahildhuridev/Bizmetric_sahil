@@ -192,11 +192,7 @@ print(data_them)
 # 4. on the next record check if already record exist then add with new id
 # 
 # 
-# i want you to generate me a code :
-# take name , mobile , pan , 10th marks , 12th marks , graduation marks from the user ,
-# always validate the information ( the loop will not end until the user has entered right marks or typed exit (something like that))
-# once the user has entered the valid input save it into the file , all data should have a unique id per data record
-#  
+
 def get_next_id(file_name):
     try:
         with open(file_name, "r") as f:

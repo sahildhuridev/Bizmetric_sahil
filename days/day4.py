@@ -56,68 +56,68 @@ and higher-order functions:
 
 
 
-# print("sahil")
-# count = 10
-# print(count)
-# def sahilcount():
-#     count = 30
-#     count += 10
-#     print(count)
-# sahilcount()
-# #print(globals())
+print("sahil")
+count = 10
+print(count)
+def sahilcount():
+    count = 30
+    count += 10
+    print(count)
+sahilcount()
+#print(globals())
 
-# from itertools import islice
-# list1 = [x for x in range(200)]
-# print(list1)
-# i = 0
-# while i <10:
-#     print(list(islice(list1,3,6)))
-#     i += 1
+from itertools import islice
+list1 = [x for x in range(200)]
+print(list1)
+i = 0
+while i <10:
+    print(list(islice(list1,3,6)))
+    i += 1
 
-# from itertools import count
-# list2 = count(10,2)
-# print(list2,type(list2))
+from itertools import count
+list2 = count(10,2)
+print(list2,type(list2))
 
-# i = 0
-# while i <10:
-#     print(list(islice(list2,3,6)))
-#     i += 1
-# print(list(list2))
-
-
-# from itertools import cycle
-# count = 1
-# for item in cycle('XYZ'):
-#     if count > 17:
-#         break
-#     print(item,count)
-#     count = count+1
+i = 0
+while i <10:
+    print(list(islice(list2,3,6)))
+    i += 1
+print(list(list2))
 
 
-
-# from itertools import repeat
-# repeat_obj = repeat("this is awesome sahil",3)
-
-# print(type(repeat_obj))
-# try:
-#     x = 0
-#     while x < 10:
-#         print(next(repeat_obj))
-# except:
-#     print("limit reached")
+from itertools import cycle
+count = 1
+for item in cycle('XYZ'):
+    if count > 17:
+        break
+    print(item,count)
+    count = count+1
 
 
 
-# from itertools import accumulate
-# import operator
-# # by default it is addition
-# iterator = accumulate(range(1,11))
-# print(list(iterator))
-# iterator = accumulate(range(1,11),operator.sub)
-# print(list(iterator))
-# iterator = accumulate(range(1,11),operator.mul)
-# print(list(iterator))
-# print(iterator , type(iterator))
+from itertools import repeat
+repeat_obj = repeat("this is awesome sahil",3)
+
+print(type(repeat_obj))
+try:
+    x = 0
+    while x < 10:
+        print(next(repeat_obj))
+except:
+    print("limit reached")
+
+
+
+from itertools import accumulate
+import operator
+# by default it is addition
+iterator = accumulate(range(1,11))
+print(list(iterator))
+iterator = accumulate(range(1,11),operator.sub)
+print(list(iterator))
+iterator = accumulate(range(1,11),operator.mul)
+print(list(iterator))
+print(iterator , type(iterator))
 
 
 # list

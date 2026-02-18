@@ -1,4 +1,4 @@
-# print bill ( all from database )
+# print bill ( all from database)
 
 import pyodbc
 from datetime import datetime

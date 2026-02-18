@@ -49,6 +49,7 @@ def sub3(*d):
         tot += i
         print(i,tot)
         yield f'{tot} first time'
+        
         yield f'{tot} second time'
         yield f'{tot} third time'
         yield f'this is the fourth time'

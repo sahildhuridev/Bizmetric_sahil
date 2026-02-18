@@ -142,63 +142,63 @@ sahil["list_name"].append("sahil")
 
 
 
-# # d1 = {
+d1 = {
 
-# #     "class": [12,12,12,12],           
-# #     "rollno": [1,2,3,4],
-# #     "name": ["A","B","C","D"],
-# #     "physics": [90,50,79,23],
-# #     "biology": [23,23,23,45]          
-# # }
+    "class": [12,12,12,12],           
+    "rollno": [1,2,3,4],
+    "name": ["A","B","C","D"],
+    "physics": [90,50,79,23],
+    "biology": [23,23,23,45]          
+}
 
-# # import pandas as pd
+import pandas as pd
 
-# # print(pd.DataFrame(d1))
-
-
-
-
-# # l1= []
-# # for i in range(10):
-# #     var = 'a_'+str(i)
-# #     globals()[var]=i*100
-# #     l1.append(var)
-# # # we have degined variable in local but we can access it in global
-# # print(var)
-
-# # # global keyword : runtime dynamic varriable (search for it)
+print(pd.DataFrame(d1))
 
 
 
 
+l1= []
+for i in range(10):
+    var = 'a_'+str(i)
+    globals()[var]=i*100
+    l1.append(var)
+# we have degined variable in local but we can access it in global
+print(var)
+
+# global keyword : runtime dynamic varriable (search for it)
 
 
-# # a,b = 0,20
-# # while a<b:
-# #     b = b-1
-# #     if b%5==0 and b%3==0:
-# #         continue
-# #     print(b,end='\t')
+
+
+
+
+a,b = 0,20
+while a<b:
+    b = b-1
+    if b%5==0 and b%3==0:
+        continue
+    print(b,end='\t')
 
 
 
 # # iter() function:
 
-# # while loop and for loop are block function and if i want to use outside the box we have to use generator and iter()
-# # l1 = [1,2,4,45,23,213]
-# # iter_l1 = iter(l1)
+#while loop and for loop are block function and if i want to use outside the box we have to use generator and iter()
+l1 = [1,2,4,45,23,213]
+iter_l1 = iter(l1)
 
-# # print(type(iter_l1))
+print(type(iter_l1))
 
-# # print(list(iter_l1))
+print(list(iter_l1))
 
-# # print(next(iter_l1))
+print(next(iter_l1))
 
-# # print(next(iter_l1))
+print(next(iter_l1))
 
-# # print(next(iter_l1))
+print(next(iter_l1))
 
-# # print(next(iter_l1))
+print(next(iter_l1))
 
 
 # # itertools package:
@@ -213,3 +213,8 @@ sahil["list_name"].append("sahil")
 l2 = [3,5,6,7,5,3,5,6,6,4,5,6,4,34,3434,343]
 iobj = islice(l2,3,8)
 print(list(iobj))
+
+
+
+
+
