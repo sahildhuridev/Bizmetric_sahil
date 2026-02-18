@@ -1,0 +1,47 @@
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+DEBUG:root:new log code: 
+DEBUG:root:this is generated from debug function
+WARNING:root:this is generated from warning function
+DEBUG:sahil:this is generated from debug function
+WARNING:sahil:this is generated from warning function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:godspeed:this is generated from error function
+CRITICAL:godspeed:this is generated from critical function
+DEBUG:root:new log code: 
+DEBUG:root:this is generated from debug function
+WARNING:root:this is generated from warning function
+DEBUG:sahil:this is generated from debug function
+WARNING:sahil:this is generated from warning function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:godspeed:this is generated from error function
+CRITICAL:godspeed:this is generated from critical function
+DEBUG:root:new log code: 
+DEBUG:root:this is generated from debug function
+WARNING:root:this is generated from warning function
+DEBUG:sahil:this is generated from debug function
+WARNING:sahil:this is generated from warning function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:godspeed:this is generated from error function
+CRITICAL:godspeed:this is generated from critical function
+INFO:my logs:this is ust inormation of the process
+DEBUG:root:new log code: 
+DEBUG:root:this is generated from debug function
+WARNING:root:this is generated from warning function
+DEBUG:sahil:this is generated from debug function
+WARNING:sahil:this is generated from warning function
+ERROR:root:this is generated from error function
+CRITICAL:root:this is generated from critical function
+ERROR:godspeed:this is generated from error function
+CRITICAL:godspeed:this is generated from critical function
+INFO:my logs:this is ust inormation of the process
+DEBUG:my logs:this is ust debug of the process
