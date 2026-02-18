@@ -31,3 +31,5 @@ printing the hotel bill in the console
 
 (the below file is not inside any folder)
 python_test.ipynb - it contains the test that was conducted on monday
+
+Note that :  day1 and day2 file contain starting 14 question of the 55 assignment questions
