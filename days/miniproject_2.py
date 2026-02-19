@@ -3,6 +3,7 @@
 import pyodbc
 from datetime import datetime
 
+print(pyodbc.drivers())
 try:
     server = r"LAPTOP-2HCHVK65\SQLEXPRESS"
     database = "hotel_sahil"

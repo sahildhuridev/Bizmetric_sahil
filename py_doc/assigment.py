@@ -434,11 +434,3 @@ l2 = [3,2,8,7,9]
 print(list(set(l1).intersection(set(l2))))
 
 
-# additional questions:
-
-# 1. create a function to calculate age till now
-
-from datetime import datetime as dt
-
-dob = input('enter your date of birth to calculate the age: ')
-dob = dt.strptime(dob , '%YY-%mm-%d')

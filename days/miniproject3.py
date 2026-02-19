@@ -16,14 +16,14 @@ def get_next_id(file_name):
             f.write("ID,Name,Mobile,PAN,10th,12th,Graduation\n")
             return 1
 
-        with open(file_name, "r") as f:
-            lines = f.readlines()
-            if len(lines) <= 1:  
+    with open(file_name, "r") as f:
+        lines = f.readlines()
+        if len(lines) <= 1:  
                 return 1
 
-            last_line = lines[-1]
-            last_id = int(last_line.split(",")[0])
-            return last_id + 1
+        last_line = lines[-1]
+        last_id = int(last_line.split(",")[0])
+        return last_id + 1
 
 
 def get_input(prompt, validate_fn):
@@ -35,9 +35,9 @@ def get_input(prompt, validate_fn):
             if validate_fn(value):
                 return value
             else:
-                print("Invalid input. Try again or type 'exit'.")
+                print("Invalid input. try again or type 'exit'.")
         except:
-            print("Invalid input. Try again or type 'exit'.")
+            print("Invalid input. try again or type 'exit'.")
 
 
 def sahil_name(x):
